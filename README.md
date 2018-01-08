@@ -75,11 +75,39 @@ Vue.use(vueCreativeCommons);
 <!-- Components are registered globally -->
 ```
 
-### After that, you can use it in your templates:
+## Usage
+
+### Icon component
+
+#### Example
 
 ```html
-<cc-icon></cc-icon>
+<!-- normal icon -->
+<cc-icon allow-adaptations="yes" allow-commercial-use="yes" icon-size="normal"></cc-icon>
+
+<!-- compact icon -->
+<cc-icon allow-adaptations="yes" allow-commercial-use="yes" icon-size="compact"></cc-icon>
 ```
+
+> ![alt text](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International License")
+![alt text](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons Attribution 4.0 International License")
+
+#### Props
+- allowAdaptations(required) - Allow adaptations of your work to be shared? `yes`, `no` or `share-alike`
+- allowCommercialUse(required) - Allow commercial uses of your work? `yes` or `no`
+- iconSize(required) : `compact` or `normal`
+
+### Label component
+
+#### Example
+```html
+<cc-label allow-adaptations="yes" allow-commercial-use="yes"></cc-label>
+```
+> This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+#### Props
+- allowAdaptations(required) - Allow adaptations of your work to be shared? `yes`, `no` or `share-alike`
+- allowCommercialUse(required) - Allow commercial uses of your work? `yes` or `no`
 
 ## Changelog
 
