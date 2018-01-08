@@ -1,3 +1,11 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/julon/vue-creativecommons/compare/397738d9c2b69c01e3e054b8e80de3ac50c1fbed...v1.1.0) (2018-01-08)
+
+
+### Features
+
+* update README.md ([f011cc4](https://github.com/julon/vue-creativecommons/commit/f011cc4))
+
 <a name="1.0.0"></a>
 # 1.0.0 (2018-01-08)
 
