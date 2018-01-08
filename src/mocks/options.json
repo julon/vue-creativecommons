@@ -1,0 +1,30 @@
+{
+  "allowAdaptationsOptions": {
+    "yes": {
+      "appendLabel": "",
+      "appendId": ""
+    },
+    "no": {
+      "appendLabel": "-NoDerivatives", 
+      "appendId": "-nd"
+    },
+    "share-alike": {
+      "appendLabel": "-ShareAlike",
+      "appendId": "-sa"
+    }
+  },
+  "allowCommercialUseOptions": {
+    "yes": {
+      "appendLabel": "",
+      "appendId": ""
+    },
+    "no": {
+      "appendLabel": "-NonCommercial",
+      "appendId": "-nc"
+    }
+  },
+  "iconSizeOptions": {
+    "normal": "normal",
+    "compact": "compact"
+  }
+}

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreativeCommonsIcon.vue should match the snapshot 1`] = `
+<div
+  class="creative-commons-icon"
+>
+  <a
+    class="creative-commons-icon--link"
+    href="http://creativecommons.org/licenses/by/4.0/"
+    rel="license"
+    target="_blank"
+  >
+    <img
+      alt="Creative Commons Attribution 4.0 International License"
+      class="creative-commons-icon--img"
+      src="https://i.creativecommons.org/l/by/4.0/88x31.png"
+    />
+  </a>
+</div>
+`;

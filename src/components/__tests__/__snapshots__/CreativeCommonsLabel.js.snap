@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreativeCommonsLabel.vue should match the snapshot 1`] = `
+<div
+  class="creative-commons-label"
+>
+  <span
+    class="creative-commons-label--prefix"
+  >
+    This work is licensed under a 
+  </span>
+  <a
+    class="creative-commons-label--link"
+    href="http://creativecommons.org/licenses/by/4.0/"
+    rel="license"
+  >
+    Creative Commons Attribution 4.0 International License
+  </a>
+  <span
+    class="creative-commons-label--suffix"
+  >
+    .
+  </span>
+</div>
+`;

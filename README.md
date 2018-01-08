@@ -20,12 +20,13 @@ When in non-modular environment, vue-creativecommons will register all the compo
 //
 // You can register a component manually
 //
-import { HelloWorld } from 'vue-creativecommons';
+import { CreativeCommonsIcon, CreativeCommonsLabel } from 'vue-creativecommons';
 
 export default {
   ...
   components: {
-    HelloWorld
+    CreativeCommonsIcon,
+    CreativeCommonsLabel
   },
   ...
 };
@@ -33,10 +34,10 @@ export default {
 //
 // or register the whole module with vue
 //
-import ModuleLibrary from 'vue-creativecommons';
+import vueCreativeCommons from 'vue-creativecommons';
 
 // Install this library
-Vue.use(ModuleLibrary);
+Vue.use(vueCreativeCommons);
 ```
 
 ### CommonJS
@@ -45,12 +46,13 @@ Vue.use(ModuleLibrary);
 // You can register a component manually
 //
 var Vue = require('vue');
-var ModuleLibrary = require('vue-creativecommons');
+var vueCreativeCommons = require('vue-creativecommons');
 
 var YourComponent = Vue.extend({
   ...
   components: {
-    'hello-world': ModuleLibrary.HelloWorld
+    'cc-icon': vueCreativeCommons.CreativeCommonsIcon,
+    'cc-label': vueCreativeCommons.CreativeCommonsLabel
   },
   ...
 });
@@ -59,10 +61,10 @@ var YourComponent = Vue.extend({
 // or register the whole module with vue
 //
 var Vue = require('vue');
-var ModuleLibrary = require('vue-creativecommons');
+var vueCreativeCommons = require('vue-creativecommons');
 
 // Install this library
-Vue.use(ModuleLibrary);
+Vue.use(vueCreativeCommons);
 ```
 
 ### Browser
@@ -76,7 +78,7 @@ Vue.use(ModuleLibrary);
 ### After that, you can use it in your templates:
 
 ```html
-<hello-world></hello-world>
+<cc-icon></cc-icon>
 ```
 
 ## Changelog

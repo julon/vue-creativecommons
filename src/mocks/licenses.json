@@ -1,0 +1,85 @@
+[
+  {
+    "allowAdaptations": "yes",
+    "allowCommercialUse": "yes",
+    "result": {
+      "icon": {
+        "compact": "https://i.creativecommons.org/l/by/4.0/80x15.png",
+        "normal": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+      },
+      "id": "by",
+      "link": "http://creativecommons.org/licenses/by/4.0/",
+      "name": "Creative Commons Attribution 4.0 International License"
+    }
+  },
+  {
+    "allowAdaptations": "no",
+    "allowCommercialUse": "yes",
+    "result": {
+      "icon": {
+        "compact": "https://i.creativecommons.org/l/by-nd/4.0/80x15.png",
+        "normal": "https://i.creativecommons.org/l/by-nd/4.0/88x31.png"
+      },
+      "id": "by-nd",
+      "link": "http://creativecommons.org/licenses/by-nd/4.0/",
+      "name":
+        "Creative Commons Attribution-NoDerivatives 4.0 International License"
+    }
+  },
+  {
+    "allowAdaptations": "share-alike",
+    "allowCommercialUse": "yes",
+    "result": {
+      "icon": {
+        "compact": "https://i.creativecommons.org/l/by-sa/4.0/80x15.png",
+        "normal": "https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+      },
+      "id": "by-sa",
+      "link": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "name":
+        "Creative Commons Attribution-ShareAlike 4.0 International License"
+    }
+  },
+  {
+    "allowAdaptations": "yes",
+    "allowCommercialUse": "no",
+    "result": {
+      "icon": {
+        "compact": "https://i.creativecommons.org/l/by-nc/4.0/80x15.png",
+        "normal": "https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+      },
+      "id": "by-nc",
+      "link": "http://creativecommons.org/licenses/by-nc/4.0/",
+      "name":
+        "Creative Commons Attribution-NonCommercial 4.0 International License"
+    }
+  },
+  {
+    "allowAdaptations": "no",
+    "allowCommercialUse": "no",
+    "result": {
+      "icon": {
+        "compact": "https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png",
+        "normal": "https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"
+      },
+      "id": "by-nc-nd",
+      "link": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "name":
+        "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License"
+    }
+  },
+  {
+    "allowAdaptations": "share-alike",
+    "allowCommercialUse": "no",
+    "result": {
+      "icon": {
+        "compact": "https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png",
+        "normal": "https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
+      },
+      "id": "by-nc-sa",
+      "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "name":
+        "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+    }
+  }
+]
