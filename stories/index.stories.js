@@ -13,7 +13,7 @@ const labelTemplate = (allowAdaptations, allowCommercialUse) => `
   <cc-label 
     allow-adaptations="${allowAdaptations}" 
     allow-commercial-use="${allowCommercialUse}">
-  </cc-icon>
+  </cc-label>
   `;
 
 // Add icons stories
