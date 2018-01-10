@@ -1,3 +1,11 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/julon/vue-creativecommons/compare/f011cc472ea35cfbedb97e98137aa84732d83059...v1.1.1) (2018-01-10)
+
+
+### Bug Fixes
+
+* add coveralls and more docs ([33f8c54](https://github.com/julon/vue-creativecommons/commit/33f8c54))
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/julon/vue-creativecommons/compare/397738d9c2b69c01e3e054b8e80de3ac50c1fbed...v1.1.0) (2018-01-08)
 
