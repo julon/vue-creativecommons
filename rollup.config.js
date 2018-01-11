@@ -102,8 +102,5 @@ function genConfig(name) {
   return config;
 }
 
-if (process.env.TARGET) {
-  module.exports = genConfig(process.env.TARGET);
-} else {
-  module.exports = genConfig("umd-prod");
-}
+const target = process.env.TARGET || "umd-prod";
+module.exports = genConfig(target);

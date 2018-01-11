@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/vue";
-import licenses from "@/mocks/licenses.json";
+import licenses from "../src/mocks/licenses.json";
 
 const iconTemplate = (allowAdaptations, allowCommercialUse, iconSize) => `
   <cc-icon 

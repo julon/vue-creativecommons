@@ -1,4 +1,4 @@
-import LicenseService from "@/services/License";
+import LicenseService from "../services/License";
 import OptionValidatorService from "../services/OptionValidator";
 
 const validator = OptionValidatorService.getOptionValidator;
