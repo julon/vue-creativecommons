@@ -1,3 +1,11 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/julon/vue-creativecommons/compare/33f8c54ddac0742eb76b6d53e9026ce8bae31d6d...v1.1.2) (2018-01-11)
+
+
+### Bug Fixes
+
+* clean unused @ alias feature ([4637c0d](https://github.com/julon/vue-creativecommons/commit/4637c0d))
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/julon/vue-creativecommons/compare/f011cc472ea35cfbedb97e98137aa84732d83059...v1.1.1) (2018-01-10)
 
