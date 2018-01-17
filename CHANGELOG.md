@@ -1,3 +1,11 @@
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/julon/vue-creativecommons/compare/4637c0d9c5b92497ebd4973c0f12b744fa23c36b...v1.1.3) (2018-01-17)
+
+
+### Bug Fixes
+
+* **package:** bump all outdated packages ([9c44df7](https://github.com/julon/vue-creativecommons/commit/9c44df7))
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/julon/vue-creativecommons/compare/33f8c54ddac0742eb76b6d53e9026ce8bae31d6d...v1.1.2) (2018-01-11)
 
