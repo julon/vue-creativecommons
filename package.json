@@ -29,7 +29,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "build": "npm run build:cjs && yarn run build:es && yarn run build:umd:dev && yarn run build:umd:prod",
+    "build": "npm run build:cjs && npm run build:es && npm run build:umd:dev && npm run build:umd:prod",
     "build:cjs": "rollup -c --environment TARGET:cjs",
     "build:es": "rollup -c --environment TARGET:esm",
     "build:umd:dev": "rollup -c --environment TARGET:umd-dev",
@@ -79,6 +79,7 @@
     "jest-serializer-vue": "^0.3.0",
     "jest-vue-preprocessor": "^1.3.1",
     "lint-staged": "^6.0.0",
+    "lodash": "^4.17.4",
     "prettier": "^1.9.2",
     "rollup": "^0.54.0",
     "rollup-plugin-babel": "^3.0.3",
@@ -124,5 +125,6 @@
       "@semantic-release/git",
       "@semantic-release/github"
     ]
-  }
+  },
+  "dependencies": {}
 }

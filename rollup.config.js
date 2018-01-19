@@ -1,3 +1,5 @@
+import { camelCase } from "lodash";
+import path from "path";
 import babel from "rollup-plugin-babel";
 import commonjs from "rollup-plugin-commonjs";
 import filesize from "rollup-plugin-filesize";
@@ -8,9 +10,20 @@ import replace from "rollup-plugin-replace";
 import uglify from "rollup-plugin-uglify";
 import vue from "rollup-plugin-vue";
 import { minify } from "uglify-es";
-import path from "path";
+
+import pack from "./package.json";
 
 const projectSlug = "vue-creativecommons";
+
+// compute globals from dependencies
+const globals =
+  pack.dependencies &&
+  Object.assign(
+    {},
+    ...Object.keys(pack.dependencies).map(key => ({
+      [key]: camelCase(key)
+    }))
+  );
 
 const builds = {
   // (CommonJS). Used by bundlers e.g. Webpack & Browserify
@@ -46,7 +59,7 @@ function genConfig(name) {
   const opts = builds[name];
   const config = {
     input: opts.entry,
-    external: opts.external,
+    external: id => pack.dependencies && pack.dependencies[id], // exclude dependencies in package.json from build
     plugins: [
       resolve({
         browser: true,
@@ -67,6 +80,7 @@ function genConfig(name) {
       exports: "named",
       file: opts.dest,
       format: opts.format,
+      globals,
       name: opts.moduleName || projectSlug
     }
   };
