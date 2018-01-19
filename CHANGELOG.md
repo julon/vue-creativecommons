@@ -1,3 +1,11 @@
+<a name="1.1.4"></a>
+## [1.1.4](https://github.com/julon/vue-creativecommons/compare/9c44df74c4139ce6b98cdece4119b0ee094b9ab4...v1.1.4) (2018-01-19)
+
+
+### Bug Fixes
+
+* update rollup config from template ([966319e](https://github.com/julon/vue-creativecommons/commit/966319e))
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/julon/vue-creativecommons/compare/4637c0d9c5b92497ebd4973c0f12b744fa23c36b...v1.1.3) (2018-01-17)
 
