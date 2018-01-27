@@ -52,7 +52,7 @@
     "@commitlint/cli": "^6.0.2",
     "@commitlint/config-conventional": "^5.2.3",
     "@semantic-release/changelog": "^1.0.0",
-    "@semantic-release/git": "^2.0.1",
+    "@semantic-release/git": "^3.0.0",
     "@semantic-release/github": "^3.0.1",
     "@semantic-release/npm": "^3.0.0",
     "@storybook/vue": "^3.3.3",
