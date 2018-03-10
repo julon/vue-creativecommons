@@ -1,3 +1,11 @@
+<a name="1.1.5"></a>
+## [1.1.5](https://github.com/julon/vue-creativecommons/compare/v1.1.4...v1.1.5) (2018-03-10)
+
+
+### Bug Fixes
+
+* replace semantic release config ([9021120](https://github.com/julon/vue-creativecommons/commit/9021120))
+
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/julon/vue-creativecommons/compare/9c44df74c4139ce6b98cdece4119b0ee094b9ab4...v1.1.4) (2018-01-19)
 
