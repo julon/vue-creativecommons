@@ -1,3 +1,12 @@
+<a name="1.1.6"></a>
+## [1.1.6](https://github.com/julon/vue-creativecommons/compare/v1.1.5...v1.1.6) (2018-05-01)
+
+
+### Bug Fixes
+
+* **lint:** remove return ([0559fdf](https://github.com/julon/vue-creativecommons/commit/0559fdf))
+* **package:** bump back jest-vue-preprocessor ([e27b89e](https://github.com/julon/vue-creativecommons/commit/e27b89e))
+
 <a name="1.1.5"></a>
 ## [1.1.5](https://github.com/julon/vue-creativecommons/compare/v1.1.4...v1.1.5) (2018-03-10)
 
