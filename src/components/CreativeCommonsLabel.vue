@@ -11,5 +11,4 @@ import CreativeCommonsMixin from "./CreativeCommonsMixin";
 export default {
   name: "CreativeCommonsLabel",
   mixins: [CreativeCommonsMixin]
-};
-</script>
+};</script>

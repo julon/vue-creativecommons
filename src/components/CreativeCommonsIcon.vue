@@ -25,8 +25,7 @@ export default {
       return this.license.icon[this.iconSize];
     }
   }
-};
-</script>
+};</script>
 
 <style lang="stylus" scoped>
 .creative-commons-icon--link
