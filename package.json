@@ -98,7 +98,7 @@
     "vue": "^2.5.13",
     "vue-jest": "^2.0.0",
     "vue-loader": "^15.0.5",
-    "vue-template-compiler": "^2.5.13"
+    "vue-template-compiler": "^2.5.18"
   },
   "config": {
     "commitizen": {
