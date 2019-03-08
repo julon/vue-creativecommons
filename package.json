@@ -55,7 +55,7 @@
     "@semantic-release/git": "^4.0.1",
     "@semantic-release/github": "^4.0.0",
     "@semantic-release/npm": "^3.0.0",
-    "@storybook/vue": "^3.3.3",
+    "@storybook/vue": "^5.0.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.1.2",
     "babel-jest": "^22.0.4",
