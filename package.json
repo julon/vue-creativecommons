@@ -78,7 +78,7 @@
     "jest-serializer-html": "^5.0.0",
     "jest-serializer-vue": "^1.0.0",
     "jest-vue-preprocessor": "^1.4.0",
-    "lint-staged": "^7.0.0",
+    "lint-staged": "^8.1.7",
     "lodash": "^4.17.4",
     "prettier": "^1.9.2",
     "rollup": "^0.58.2",
