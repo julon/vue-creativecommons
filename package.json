@@ -96,7 +96,7 @@
     "stylus-loader": "^3.0.1",
     "uglify-es": "^3.3.4",
     "vue": "^2.5.13",
-    "vue-jest": "^2.0.0",
+    "vue-jest": "^3.0.5",
     "vue-loader": "^15.0.5",
     "vue-template-compiler": "^2.5.13"
   },
